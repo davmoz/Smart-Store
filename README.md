@@ -2,12 +2,18 @@
 # Smart Store
 ## A project, in the course 1DT305 - Applied IoT
 
-Name: David Mozart Andraws
-Email: <dm222is@student.lnu.se>
-University: [Linnaeus University](https://lnu.se/)
-PowerPoint: [Smart-Store](https://1drv.ms/p/s!AsqxEF09_XshkM1n4i1At7rL_whUDQ?e=use26k)
+Name: David Mozart Andraws<br/>
+Email: <dm222is@student.lnu.se><br/>
+University: [Linnaeus University](https://lnu.se/)<br/>
+PowerPoint: [Smart-Store](https://1drv.ms/p/s!AsqxEF09_XshkM1n4i1At7rL_whUDQ?e=use26k)<br/>
 
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ubidots](https://pycom.io/wp-content/uploads/2018/08/pycomLogoGoInventGrey1920.png =110x) ![gcloud](https://hitconsultant.net/wp-content/uploads/2018/09/CareCloud-Google.png =170x)![gcloud](https://www.connectedfinland.fi/wp-content/uploads/2017/10/Sigfox-Logo.png =110x) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ubidots](https://ubidots.com/_nuxt/img/logo_color.9c7e99e.png =110x)
+<p float="left">
+    <img src="https://pycom.io/wp-content/uploads/2018/08/pycomLogoGoInventGrey1920.png" alt="alt text" width="110px" height="auto">
+    <img src="https://hitconsultant.net/wp-content/uploads/2018/09/CareCloud-Google.png" alt="alt text" width="110px" height="auto">
+    <img src="https://www.connectedfinland.fi/wp-content/uploads/2017/10/Sigfox-Logo.png" alt="alt text" width="110px" height="auto">
+    <img src="https://ubidots.com/_nuxt/img/logo_color.9c7e99e.png" alt="alt text" width="110x" height="auto">
+</p>
+ 
 ---
 ## Overview
 Smart Store is a project that aims towards smartifying department stores, by monitoring air conditions and customer behaviour, of course while respecting their integrity. The smart store device can be installed in a number of sections in the store and once installed, data about air conditions and customer movement activity will be transmitted to the sigfox network and further on to ubidots and google cloud for real-time visualisation.
@@ -16,8 +22,29 @@ Estimated time: 60h
 
 ---
 **Table of Contents**
+- [Smart Store](#smart-store)
+  - [A project, in the course 1DT305 - Applied IoT](#a-project-in-the-course-1dt305---applied-iot)
+  - [Overview](#overview)
+  - [Objective](#objective)
+  - [Material](#material)
+    - [Hardware](#hardware)
+    - [Software](#software)
+  - [Computer setup](#computer-setup)
+  - [Putting everything together](#putting-everything-together)
+  - [Platform](#platform)
+    - [Sigfox backend](#sigfox-backend)
+    - [Google Cloud](#google-cloud)
+    - [Ubidots](#ubidots)
+  - [The Code](#the-code)
+  - [Transmitting the data / connectivity](#transmitting-the-data--connectivity)
+  - [Presenting the data](#presenting-the-data)
+    - [Ubidots](#ubidots-1)
+    - [Google Cloud - Data Studio](#google-cloud---data-studio)
+  - [Finalizing the design](#finalizing-the-design)
+    - [Final thoughts](#final-thoughts)
+    - [Data studio (Live data)](#data-studio-live-data)
+    - [Ubidots (Live data)](#ubidots-live-data)
 
-[TOC]
 
 
 
