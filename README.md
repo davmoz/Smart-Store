@@ -144,7 +144,7 @@ More on how to connect your device to sigfox can be found [here](https://docs.py
 Used to get the payload (data) from sigfox, store it in a database and visiualize the data. The configuration is as following:
 1. Create a Pub/Sub topic in the google cloud platform
 2. Implement a callback function in sigfox to forward the data received by the device to google cloud platform.
-3. Implement a callback function in google cloud platform to receive the sigfox data (this callback function will public the data to the Pub/Sub topic)
+3. Implement a callback function in google cloud platform to receive the sigfox data (this callback function will publish the data to the Pub/Sub topic)
 4. Create a callback function to decode the payload (data) and store it in bigquery
 
 Refer to the following [tutorial](https://cloud.google.com/community/tutorials/sigfox-gw) for more detailed instructions
