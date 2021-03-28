@@ -18,7 +18,7 @@ PowerPoint: [Smart-Store](https://1drv.ms/p/s!AsqxEF09_XshkM1n4i1At7rL_whUDQ?e=u
 ## Overview
 Smart Store is a project that aims towards smartifying department stores, by monitoring air conditions and customer behaviour, of course while respecting their integrity. The smart store device can be installed in a number of sections in the store and once installed, data about air conditions and customer movement activity will be transmitted to the sigfox network and further on to ubidots and google cloud for real-time visualisation.
 
-Estimated time: 60h
+Estimated time: 10h
 
 ---
 **Table of Contents**
