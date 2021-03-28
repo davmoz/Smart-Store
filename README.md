@@ -16,7 +16,7 @@ PowerPoint: [Smart-Store](https://1drv.ms/p/s!AsqxEF09_XshkM1n4i1At7rL_whUDQ?e=u
  
 ---
 ## Overview
-Smart Store is a project that aims towards smartifying department stores, by monitoring air conditions and customer behaviour, of course while respecting their integrity. The smart store device can be installed in a number of sections in the store and once installed, data about air conditions and customer movement activity will be transmitted to the sigfox network and further on to ubidots and google cloud for real-time visualisation.
+Smart Store is a project that aims towards smartifying department stores, by monitoring air conditions and customer behaviour, of course while respecting their integrity. The smart store device can be installed in multiple sections in the store and once installed, data about air conditions and customer movement activity will be transmitted to the sigfox network and further on to ubidots and google cloud for real-time visualisation.
 
 Estimated time: 10h
 
@@ -45,25 +45,8 @@ Estimated time: 10h
     - [Data studio (Live data)](#data-studio-live-data)
     - [Ubidots (Live data)](#ubidots-live-data)
 
-
-
-
 ---
 
-## Objective
-
-
-- [X] ***Why you chose the project***
-I chose this specific project because it provides valueable information to a low cost. It also adds one more variable to consider when developing sales strategies.
-I also chose to make something unique, that can't be found on a single tutorial online.   
-
-- [X] ***What purpose does it serve***
-It helps the store owner / manager to monitor air conditions in each section of the store. This information is useful both for customer well-being and air sensitive store section such as fruit and vegtable, dairy, furniture, clothing and painting sections.    
-It also reports movement activities for x period of time, which can be helpful to learn and develop item promotion / sales techinques based on customer behaviour.
-E.g. If section B is low on activity, that could mean that items in that section aren't exposed enough to the customer and by looking at how other sections, with more activity, are structured. One, of many possible measures, would be to mimic the structure in section B.
-
-- [X] ***What insights you think it will give***
-It will give an insight into how commercial and retail IOT systems are built. I will learn how to work with gathered data and use it for different purposes.
 
 ## Material
 
